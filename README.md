@@ -11,6 +11,8 @@ Welcome to my personal project portfolio showcasing real-world experience in:
 ## 📁 Projects
 
  [Data Annotation](./Data_Annotation)             | Manual text labeling using Excel for Lonely Planet
+
+ [SQL Data Analysis](./PySpark_ETL)            | Analysis on Sales data  
  
  [PySpark ETL Pipeline](./PySpark_ETL)            | Data processing pipeline using PySpark 
 
