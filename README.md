@@ -10,7 +10,7 @@ Welcome to my personal project portfolio showcasing real-world experience in:
 
 ## 📁 Projects
 
- [Data Annotation](./Data_Annotation)             | Manual text labeling using Excel for Lonely Planet
+ [Data Annotation](./Data_Annotation)             | Manual text labeling for ML models
 
  [SQL Data Analysis](./Pizza-Sales-Analysis)            | Analysis on Sales data  
  
