@@ -4,7 +4,6 @@ This SQL project analyzes a pizza sales database to answer key business question
 
 ---
 
-## 🗂️ Project Structure
 
 ## 🧾 Database Schema Overview
 Below are the tables and their key columns used in the project:
@@ -16,6 +15,28 @@ Below are the tables and their key columns used in the project:
 | `order_date` | DATE      | Date of the order       |
 | `order_time` | TIME      | Time of the order       |
 
+🍕 pizzas
+| Column Name     | Data Type | Description                   |
+| --------------- | --------- | ----------------------------- |
+| `pizza_id`      | TEXT      | Unique identifier for pizza   |
+| `pizza_type_id` | TEXT      | Foreign key to `pizza_types`  |
+| `size`          | TEXT      | Size of the pizza (S / M / L) |
+| `price`         | DECIMAL   | Price of the pizza            |
+
+🍕 pizza_types
+| Column Name     | Data Type | Description                         |
+| --------------- | --------- | ----------------------------------- |
+| `pizza_type_id` | TEXT      | Unique identifier for pizza type    |
+| `name`          | TEXT      | Name of the pizza                   |
+| `category`      | TEXT      | Category (e.g., Classic, Veggie...) |
+| `ingredients`   | TEXT      | Ingredients used in the pizza       |
+
+🧾 order_details
+| Column Name | Data Type | Description                                |
+| ----------- | --------- | ------------------------------------------ |
+| `order_id`  | INT       | Foreign key to `orders`                    |
+| `pizza_id`  | TEXT      | Foreign key to `pizzas`                    |
+| `quantity`  | INT       | Number of pizzas of that type in the order |
 
 ---
 
