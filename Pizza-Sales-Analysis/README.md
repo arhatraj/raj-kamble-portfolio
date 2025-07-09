@@ -1,14 +1,21 @@
 # 🍕 Pizza Sales Analysis
 
-This SQL project analyzing a pizza sales database to answer key business questions using advanced SQL techniques such as **joins**, **aggregate functions**, **subqueries**, and **window functions**. Includes queries for total revenue, top pizza types, size trends, category-wise distribution, and more.
+This SQL project analyzes a pizza sales database to answer key business questions using advanced SQL techniques such as **joins**, **aggregate functions**, **subqueries**, and **window functions**. Includes queries for total revenue, top pizza types, size trends, category-wise distribution, and more.
 
 ---
 
 ## 🗂️ Project Structure
 
-- **DDL/** – Table creation scripts (if any)
-- **DML/** – Data insertion scripts (if any)
-- **Queries/** – Core analytical SQL queries grouped by topic
+## 🧾 Database Schema Overview
+Below are the tables and their key columns used in the project:
+
+🧺 orders
+| Column Name  | Data Type | Description             |
+| ------------ | --------- | ----------------------- |
+| `order_id`   | INT       | Unique order identifier |
+| `order_date` | DATE      | Date of the order       |
+| `order_time` | TIME      | Time of the order       |
+
 
 ---
 
