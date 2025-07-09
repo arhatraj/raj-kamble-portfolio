@@ -68,3 +68,13 @@ Below are the tables and their key columns used in the project:
 11. Revenue percentage by pizza type
 12. Cumulative revenue by date
 13. Top 3 pizzas per category based on revenue
+
+## 📁 Dataset
+
+The raw data used for this project is located in the `Dataset/` folder:
+
+- `orders.csv` — Order timestamps and IDs
+- `order_details.csv` — Items per order and quantity
+- `pizzas.csv` — Pizza size, type ID, price
+- `pizza_types.csv` — Name, category, and ingredients of each pizza type
+
