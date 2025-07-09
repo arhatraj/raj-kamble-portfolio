@@ -8,14 +8,14 @@ This SQL project analyzes a pizza sales database to answer key business question
 ## 🧾 Database Schema Overview
 Below are the tables and their key columns used in the project:
 
-🧺 orders
+### 🧺 orders
 | Column Name  | Data Type | Description             |
 | ------------ | --------- | ----------------------- |
 | `order_id`   | INT       | Unique order identifier |
 | `order_date` | DATE      | Date of the order       |
 | `order_time` | TIME      | Time of the order       |
 
-🍕 pizzas
+### 🍕 pizzas
 | Column Name     | Data Type | Description                   |
 | --------------- | --------- | ----------------------------- |
 | `pizza_id`      | TEXT      | Unique identifier for pizza   |
@@ -23,7 +23,7 @@ Below are the tables and their key columns used in the project:
 | `size`          | TEXT      | Size of the pizza (S / M / L) |
 | `price`         | DECIMAL   | Price of the pizza            |
 
-🍕 pizza_types
+### 🍕 pizza_types
 | Column Name     | Data Type | Description                         |
 | --------------- | --------- | ----------------------------------- |
 | `pizza_type_id` | TEXT      | Unique identifier for pizza type    |
@@ -31,7 +31,7 @@ Below are the tables and their key columns used in the project:
 | `category`      | TEXT      | Category (e.g., Classic, Veggie...) |
 | `ingredients`   | TEXT      | Ingredients used in the pizza       |
 
-🧾 order_details
+### 🧾 order_details
 | Column Name | Data Type | Description                                |
 | ----------- | --------- | ------------------------------------------ |
 | `order_id`  | INT       | Foreign key to `orders`                    |
