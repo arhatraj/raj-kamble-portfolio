@@ -1,4 +1,4 @@
-# 🗂️ Data Annotation Project (Lonely Planet - Travel Data)
+# 🗂️ Data Annotation Project
 
 This project demonstrates manual text data annotation performed for a travel guide client (Lonely Planet) using **Microsoft Excel**. 
 It was part of the early model development phase to support natural language processing (NLP) models.
