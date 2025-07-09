@@ -1,7 +1,6 @@
 # 🍕 Pizza Sales Analysis
 
-This project analyzes a pizza sales database to answer key business questions using SQL. 
-It demonstrates concepts like **joins**, **window functions**, **CTEs**, and **aggregation**.
+This SQL project analyzing a pizza sales database to answer key business questions using advanced SQL techniques such as **joins**, **aggregate functions**, **subqueries**, and **window functions**. Includes queries for total revenue, top pizza types, size trends, category-wise distribution, and more.
 
 ---
 
